@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
+import ProductDetails from "./pages/ProductDetails";
+import './generalCSS/reset.css'
+import Header from './genericComponents/Header/Header';
+import './generalCSS/reset.css'
+import DropdownEmpty from './genericComponents/Header/components/UserInfo/Cart/components/components/DropdownEmpty';
 function App() {
+
+  // ცვლილებები გავაკეთეთ
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ProductDetails />
+    </>
   );
 }
 

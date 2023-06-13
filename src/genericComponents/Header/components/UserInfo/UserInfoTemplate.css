@@ -1,0 +1,8 @@
+.user-info{
+    width: 10rem;
+    height: 15dvh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}

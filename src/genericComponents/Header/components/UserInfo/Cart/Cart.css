@@ -1,0 +1,6 @@
+.cart-div:hover{
+    cursor: pointer;
+}
+.cart-div{
+    z-index: 2;
+}

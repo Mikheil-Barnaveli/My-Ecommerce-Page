@@ -1,0 +1,11 @@
+.brand-name-txt {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ff7e1b;
+}

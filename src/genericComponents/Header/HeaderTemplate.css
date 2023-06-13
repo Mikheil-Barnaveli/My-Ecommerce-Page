@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    display: flex;
+    /* padding-block: 1rem; */
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E4E9F2;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+.burger-nav{
+    display: none;
+}
+@media (max-width: 1000px) {
+    .logo-nav {
+      display: none;
+    }
+    .burger-nav{
+        display: flex;
+    }
+  }

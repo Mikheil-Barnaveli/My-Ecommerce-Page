@@ -1,0 +1,9 @@
+.products-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 31rem;
+    height: 30rem;
+    padding: 1.5rem;
+}

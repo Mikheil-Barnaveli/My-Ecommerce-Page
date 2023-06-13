@@ -1,0 +1,29 @@
+#slider-responsive {
+  width: 100%;
+  max-width: 425px;
+  height: 20rem;
+  display: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+align-items: center;
+}
+.responsive-slider-arrow-div {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  #slider-responsive {
+    display: flex;
+  }
+  .responsive-slider-arrow-div {
+    display: flex;
+  }
+}

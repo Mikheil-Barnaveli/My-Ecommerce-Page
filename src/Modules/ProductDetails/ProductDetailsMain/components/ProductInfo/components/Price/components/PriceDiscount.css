@@ -1,0 +1,17 @@
+.price-discount {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ff7e1b;
+}
+#discount-div{
+  background: #FFEEE2;
+border-radius: 6px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px;
+}
