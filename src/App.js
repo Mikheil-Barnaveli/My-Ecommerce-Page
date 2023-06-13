@@ -6,8 +6,8 @@ import './generalCSS/reset.css'
 import DropdownEmpty from './genericComponents/Header/components/UserInfo/Cart/components/components/DropdownEmpty';
 function App() {
 
-  // ცვლილებები გავაკეთეთ
 
+  // ცვლილებები გავაკეთეთ here <<
 
   return (
     <>
